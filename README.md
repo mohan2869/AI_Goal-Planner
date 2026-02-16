@@ -1,0 +1,1 @@
+AI Goal Planner is an AI-powered productivity web app that converts long-term goals into structured monthly, weekly, and daily action plans. It dynamically adjusts schedules based on progress and backlogs, with priority ranking and dashboards. Built with React, Node.js, Express, MongoDB, and OpenAI API for intelligent goal decomposition.
