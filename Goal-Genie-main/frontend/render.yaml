@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: GoalGenie
+    env: static
+    staticPublishPath: dist
+    buildCommand: npm install && npm run build
+    routes:
+      - type: rewrite
+        source: /.*    # all routes
+        destination: /index.html
